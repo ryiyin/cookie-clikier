@@ -1,0 +1,13 @@
+*{
+    background-color: rgb(208, 160, 160);
+}
+
+.cookie{
+    cursor: pointer;
+    transform: scale(1);
+    transition: transform 0.15s ease-in-out;
+}
+
+.agrandar {
+    transform: scale(1.2);
+  }
