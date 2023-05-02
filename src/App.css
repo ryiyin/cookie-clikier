@@ -1,13 +1,39 @@
 *{
-    background-color: rgb(208, 160, 160);
+    background-color: rgb(111, 83, 195);
 }
 
+.container {
+    display: flex;
+    columns: 3;
+    gap: 1em;
+}
+
+.column{
+    display: inline-block;
+    border: solid black;
+}
+.column-cookie{
+    
+    justify-content: center;
+ 
+}
+.cookie-counter{
+    color: rgb(16, 20, 23);
+}
 .cookie{
     cursor: pointer;
-    transform: scale(1);
+    margin-top: 40%;
+    margin-bottom: 8rem;
+    transform: scale(0.5);
     transition: transform 0.15s ease-in-out;
 }
 
-.agrandar {
-    transform: scale(1.2);
-  }
+.cookie:hover {
+    transform: scale(0.6);
+}
+
+.updgrades{
+    color: aliceblue;
+    
+}
+
